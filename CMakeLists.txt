@@ -3,8 +3,6 @@ project(Infer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(Opencv_Libs opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs)
-
 # set cuda
 find_package(CUDA 10.1 EXACT REQUIRED cudart cublas curand)
 
